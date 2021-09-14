@@ -1,0 +1,145 @@
+<!-- HEADER -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/b5220462dd.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/3.0.2/marked.min.js"></script>
+</head>
+
+<!-- BODY -->
+
+<body>
+
+<!-- HEADER-->
+
+    <section class="nav">
+    <img src="donut_strawberry_sprinkles.jpg" alt="">
+    <h1>Welcome<span>to Grandma's</span></h1>
+    </section>
+
+<!--Contenu principal -->
+    <section class="principal">
+    <h2>Our Store</h2>
+    </section>
+
+<!-- nav pour filtrer les articles -->
+
+    <div class="lien">
+        <button class="btnf"data-filter="all">ALL</button>
+        <button class="btnf"data-filter="cupcakes">CUPCAKES</button>
+        <button class="btnf"data-filter="cakes">CAKES</button>
+        <button class="btnf"data-filter="sweets">SWEETS</button>
+        <button class="btnf" data-filter="donuts">DONUT</button>
+    </div>
+
+<!-- barre de recherche pour filtrer les articles -->
+    <div class="recherche">
+        <button><i class="fas fa-search"></i></button>
+        <input type="text" placeholder="item..." id="search-item">
+    </div>
+
+<!-- articles -->
+    <div class="articles">
+
+    <!-- article -->
+    <div class="article store-item donuts" data-item="donuts">
+        <div class="img-container">
+        <img src="i82395-donuts.jpg" alt="">
+        <span class="store-item-icon">
+        <i class="fas fa-shopping-cart"></i>
+        </span>
+        </div>
+        <div class="description">
+            <h2 class="titre">Donuts Framboise maison</h2>
+            <h2>5€</h2>
+        </div>
+    </div>
+
+     <!-- article -->
+    <div class="article store-item sweets" data-item="sweets">
+        <img src="Cupcake_Blueberries_488263.jpg" alt="">
+        <div class="description">
+            <h2 class="titre">Bonbons maison</h2>
+            <h2>3,5€</h2>
+        </div>
+    </div>
+
+     <!-- article -->
+    <div class="article store-item cakes"  data-item="cakes">
+        <img src="i139938-cake-au-citron-au-thermomix.jpeg" alt="">
+        <div class="description">
+            <h2 class="titre">Cakes citron</h2>
+            <h2>2€50</h2>
+        </div>
+    </div>
+
+     <!-- article -->
+    <div class="article store-item cupcakes" data-item="cupcakes">
+        <img src="cupp.jpg" alt="">
+        <div class="description">
+            <h2 class="titre">cupcakes et son praliné maison</h2>
+            <h2>6€</h2>
+        </div>
+    </div>
+
+     <!-- article -->
+    <div class="article store-item cakes" data-item="cakes">
+        <img src="Cake-la-banane-et-au-chocolat.jpg" alt="">
+        <div class="description">
+            <h2 class="titre"> cakes banane chocolat</h2>
+            <h2>2€50</h2>
+        </div>
+    </div>
+
+     <!-- article -->
+    <div class="article store-item cupcakes1" data-item="cupcakes">
+        <img src="i92204-cupcake-framboise.jpg" alt="">
+        <div class="description">
+            <h2 class="titre">Cupcakes</h2>
+            <h2>5€</h2>
+        </div>
+    </div>
+
+     <!-- article -->
+    <div class="article store-item sweets" data-item="sweets">
+        <img src="i82395-donuts.jpg" alt="">
+        <div class="description">
+            <h2 class="titre">Bonbons de mon enfance</h2>
+            <h2>4€</h2>
+        </div>
+    </div>
+
+     <!-- article -->
+    <div class="article store-item donuts" data-item="donuts">
+        <img src="donutschoco.jpg" alt="">
+        <div class="description">
+            <h2 class="titre">Donuts choco</h2>
+            <h2>2€</h2>
+        </div>
+    </div>
+
+
+     <!-- article -->
+    <div class="article store-item cakes" data-item="cakes">
+        <img src="i82395-donuts.jpg" alt="">
+        <div class="description">
+            <h2 class="titre">cakes de mamie</h2>
+            <h2>6€</h2>
+        </div>
+    </div>
+</div>
+
+
+
+    <script src="js.js"></script>
+</body>
+</html>
